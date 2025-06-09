@@ -1,0 +1,3 @@
+Data types in JS
+
+Number , String , Boolean , undefined , null , bigInt , Symbol 
