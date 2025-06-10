@@ -26,3 +26,16 @@ let z = BigInt("123");
 //Symabol Dtat types
 
 let r = Symbol("hello");
+
+const student = {
+    fullName: "RAHUL KUMAR",
+    age: 20,
+    cgpa: 8.2,
+    isPass: true
+};
+
+console.log(student["age"]);
+
+student["age"] = student["age"] + 1;
+
+console.log(student["age"]);
