@@ -11,3 +11,17 @@ JavaScript is a scripting language of the web that allows you to do/add Interact
 - Not at-all related to `JAVA` (completely different in concept and design)
 - `Microsoft` has developed new version of "JavaScript" as `"JScript"` for `IE-3` in `1996`
 - JavaScript Submitted to `ECMAScript in 1997`
+
+
+JavaScript Getting Started
+=====================
+How to write Javascript?
+---------------------
+JavaScript in HTML
+---------------------
+
+- The HTML `<script>.....</script>` tag is used to embed/insert/implement a JavaScript programs/code into any part of an HTML document/page
+- The `<script>.....</script>` tag specifies that we are using JavaScript
+- The `<script>.....</script>` element can be placed in the `<head>`, or `<body>` section of an HTML document
+- Each `<script>.....</script>` tag blocks the page rendering process until it has fully downloaded and executed the JavaScript code
+  - So the best practice is to place/add the `<script>.....</script>` at the bottom/end of `body` tag/section ie. just before the closing `</body>` tag
