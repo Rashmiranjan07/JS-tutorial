@@ -25,3 +25,21 @@ JavaScript in HTML
 - The `<script>.....</script>` element can be placed in the `<head>`, or `<body>` section of an HTML document
 - Each `<script>.....</script>` tag blocks the page rendering process until it has fully downloaded and executed the JavaScript code
   - So the best practice is to place/add the `<script>.....</script>` at the bottom/end of `body` tag/section ie. just before the closing `</body>` tag
+ 
+    
+Section 01. Variables
+=====================
+
+What is Variable?
+---------------------
+
+Variables are one of the most fundamental concepts in JavaScript and other all programming languages of the world.
+
+- A variable is `container to store/hold the data/information`
+- Developers/Programmers use Variable to `store/hold the data/information temporarily` in computer memory 
+- A variable is a kind of data holder where we can store some value for programming or calculation purpose
+- A JavaScript variable is simply a `name of the storage location (named containers/named storage)` for data
+- Variables are symbolic names for values 
+- Variables are used to store data of different types like a string of text, numbers, boolean values like true/false, an array of data, etc. 
+- The data or value stored in the variables can be set, updated, and retrieved whenever needed
+- Variables are declared using the keyword `var` keyword
