@@ -1,3 +1,19 @@
-Data types in JS
+Data types in JS-------
 
+There are 2 types of datatypes in js .
+i. primitive 
+ii. Non-primitive 
+
+    i.primitive data types :-(7)
 Number , String , Boolean , undefined , null , bigInt , Symbol 
+
+    ii. non-primitive datatypes :-
+objects ( Array , Functions )
+
+object :- collection of values 
+ ex:- 
+      key : value 
+     {
+      name : rahul
+      age : 24
+     }
