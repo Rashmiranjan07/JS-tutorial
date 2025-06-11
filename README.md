@@ -43,3 +43,24 @@ Variables are one of the most fundamental concepts in JavaScript and other all p
 - Variables are used to store data of different types like a string of text, numbers, boolean values like true/false, an array of data, etc. 
 - The data or value stored in the variables can be set, updated, and retrieved whenever needed
 - Variables are declared using the keyword `var` keyword
+
+Section 02. Data types
+=======================
+
+ Data types 
+-------------
+
+A variable in JavaScript can contain any type of data. Data types specify what kind of data can be stored and manipulated within the variable in a program. In JavaScript, different data types are available to hold different types of values/data. There are two main categories/types of data types in JavaScript:
+
+ 1. Primitive (Primary or Value) data type
+- String
+- Number
+- Boolean
+- Undefined
+- Null
+- Symbol (newly introduced in ES6)
+
+2. Non-primitive (Reference or Composite) data type
+- Array
+- Object
+- Function
