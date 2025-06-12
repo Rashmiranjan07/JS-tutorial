@@ -86,4 +86,20 @@ console.log("x<y", x < y);
 console.log("x<=y", x <= y);
 
 //logical operators to be started ---------
-//12.06.25
+//logical AND (&&)
+//both condition true then finale answer is true 
+let c = 6;
+let d = 5;
+
+let cond1 = c > d;
+let cond2 = c === 6;
+console.log("cond1 && cond2 = ", cond1 && cond2); //true 
+
+//logical OR (||)
+//if one condition is true then true .
+
+console.log("cond1 || cond2=", c < d || c === 6);
+
+//logical NOT (!)
+// the expression is true thats converts to false and vice-versa .
+console.log("!(6<5) = ", (c < d));
