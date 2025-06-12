@@ -84,3 +84,6 @@ console.log("x>y", x > y);
 console.log("x>=y", x >= y);
 console.log("x<y", x < y);
 console.log("x<=y", x <= y);
+
+//logical operators to be started ---------
+//12.06.25

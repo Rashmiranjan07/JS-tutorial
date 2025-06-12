@@ -64,3 +64,29 @@ A variable in JavaScript can contain any type of data. Data types specify what k
 - Array
 - Object
 - Function
+
+Section 03. Operators
+=======================
+
+What is Operator ?
+-------------------
+- We know/use many operators since our initial school days, they are things like addition +, multiplication *, subtraction -, open-close round bracket ( ) or square bracket [ ]
+- Operators are symbols/keywords that tell the JavaScript engine to perform some sort of actions .
+- JavaScript operators are symbols that are used to perform operations on operands .
+- Operators used along with our variables and constants to create expressions to implement logic and algorithms .
+
+// Lets take a look on simple expression 
+var sum = 1 + 2;
+
+// Here 1 and 2 are called `operands` and 
+// `=` & `+` are called the `operator`
+// `= is the assignment` operator, `+ is the arithmetic` operator
+
+JavaScript supports the following types of operators:
+1. Arithmetic Operators
+2. Assignment Operators
+3. Logical Operators
+4. Comparison (or Relational) Operators
+5. Conditional (or ternary) Operators
+6. String Operators
+7. Bitwise Operators
