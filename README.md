@@ -82,7 +82,7 @@ var sum = 1 + 2;
 // `=` & `+` are called the `operator`
 // `= is the assignment` operator, `+ is the arithmetic` operator
 
-JavaScript supports the following types of operators:
+**JavaScript supports the following types of operators:
 1. Arithmetic Operators
 2. Assignment Operators
 3. Logical Operators
