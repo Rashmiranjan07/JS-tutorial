@@ -90,3 +90,5 @@ JavaScript supports the following types of operators:
 5. Conditional (or ternary) Operators
 6. String Operators
 7. Bitwise Operators
+
+

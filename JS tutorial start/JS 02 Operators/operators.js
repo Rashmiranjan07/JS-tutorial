@@ -103,3 +103,17 @@ console.log("cond1 || cond2=", c < d || c === 6);
 //logical NOT (!)
 // the expression is true thats converts to false and vice-versa .
 console.log("!(6<5) = ", (c < d));
+
+
+// ternary operators
+//it works with three operands
+//condition ? true output: false output 
+// eg:-(a ? b : c)
+
+//syntax is: [age> 18 ? "adult" :" not adult " ;]
+
+let age = 25;
+let result = age > 18 ? "adult" : " not adult ";
+console.log(result); //or
+
+//let result = age > 18 ? console.log("adult") : (" not adult ");
