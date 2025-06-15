@@ -103,14 +103,20 @@ Ternary Operators
  - eg:-(a ? b : c)
 
    syntax is: [age> 18 ? "adult" :" not adult " ;]
-   
----
+
+```javascript
 let age = 25;
-let result = age > 18 ? "adult" : " not adult ";
-console.log(result);  
+let result = age > 18 ? "adult" : "not adult";
+console.log(result);
+
+
+Summary
+---------
+
 
 - The conditional (ternary) operator is the only JavaScript operator that takes three operands
 - The conditional operator that assigns a value to a variable based on some condition
 - This operator is frequently used as a shortcut/short-hand method for the if statement
 - Syntax: variablename = (condition) ? TRUE value: FALSE value
+
 
