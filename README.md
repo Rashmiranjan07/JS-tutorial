@@ -103,7 +103,8 @@ Ternary Operators
  - eg:-(a ? b : c)
 
    syntax is: [age> 18 ? "adult" :" not adult " ;]
-
+   
+---
 let age = 25;
 let result = age > 18 ? "adult" : " not adult ";
 console.log(result);  
