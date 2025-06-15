@@ -92,3 +92,24 @@ JavaScript supports the following types of operators:
 7. Bitwise Operators
 
 
+Section 04. Conditionals Statements 
+=====================================
+- Conditional Operator returns a value based on the condition, it is like if-else . 
+
+Ternary Operators
+--------------------
+- It works with three operands
+- condition ? true output: false output 
+ - eg:-(a ? b : c)
+
+   syntax is: [age> 18 ? "adult" :" not adult " ;]
+
+let age = 25;
+let result = age > 18 ? "adult" : " not adult ";
+console.log(result);  
+
+- The conditional (ternary) operator is the only JavaScript operator that takes three operands
+- The conditional operator that assigns a value to a variable based on some condition
+- This operator is frequently used as a shortcut/short-hand method for the if statement
+- Syntax: variablename = (condition) ? TRUE value: FALSE value
+
