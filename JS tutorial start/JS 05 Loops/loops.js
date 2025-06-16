@@ -80,6 +80,9 @@ let student = {
     isPass: true
 };
 
-for(let k in student ) {
-    console.log("k=", k , "value=", student[key]);
+for(let k in student) {
+    console.log("k=", k , "value=", student [k]);
 }
+
+
+// practice question (17.06.25)------
