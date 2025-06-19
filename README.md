@@ -150,4 +150,64 @@ for (let count=1; count <= 5; count++) {
     console.log("apna college");
  }
 
-```  
+``` 
+## The for loop - Find Even or Odd number (1-10)
+
+```javascript
+
+// for loop - to find out odd even number
+
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 == 0) {
+    console.log('The current index/num is EVEN : ' , i);
+  } /* else {
+    console.log('The current index/num is ODD : ' , i);
+  } */
+}
+
+``` 
+
+## The while loop
+
+- Loops through a block of code until the specified condition evaluates to true .
+- In For loop, a variable is part of a loop, but in While loop, we need to declare variable externally .
+
+```javascript
+
+/*while(condition) {
+  // Code to be executed
+}*/
+// 1- 5
+let i = 1;
+
+while (i <= 5) {
+  console.log('Hello, The current index/num is: ' , i);
+  i++;
+}
+
+```
+
+## The do...while loop
+
+- The do...while loop is similar to the while loop except that the condition check happens at the end of the loop.
+- The do...while loop will always be executed at least once (before checking if the condition is true), even if the condition is false.
+
+```javascript
+
+// do...while loop
+
+/*do {
+    // Code to be executed
+}
+while(condition);*/
+
+let i = 1;
+
+do {
+  
+  console.log('Hello, The current index/num is: ' , i);
+  i++;
+}
+while (i <= 5); 
+
+```
