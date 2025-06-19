@@ -231,7 +231,7 @@ Loops and Iterations :-
 2. while loop
 3. do...while loop
 4. for...in loop
-6. for...each
+5. for-of loop (string / arrays)
 
 ## The for loop
 
@@ -309,23 +309,6 @@ while (i <= 5);
 
 ```
 
-##  for-of loop (string / arrays)
-
-```javascript
-
-let str = "javascript";
-let size = 0;
-
-
-for (let a of str) {
-    console.log("a=", a);
-    size++;
-}
-console.log("string size=", size); //10
-
-
-```
-
 ## for-in loop (used for objects)
 
 ```javascript
@@ -343,6 +326,25 @@ for(let k in student) {
 
 
 ```
+
+##  for-of loop (string / arrays)
+
+```javascript
+
+let str = "javascript";
+let size = 0;
+
+
+for (let a of str) {
+    console.log("a=", a);
+    size++;
+}
+console.log("string size=", size); //10
+
+
+```
+
+
 ## practice question :- 
 
 - print all even numbers from 0 to 100 .
@@ -356,7 +358,7 @@ for (let num = 0; num<=100; num++) {
 }
 
 ```
-- create a game where you start with any random game number . Ask the user to keep guesssing the game number until the user enters correct value .   
+- create a game where you start with any random game number . Ask the user to keep guesssing the game number until the user enters correct value.   
 
 ```javascript
 
@@ -368,5 +370,6 @@ while (userNum != gameNum) {
 
 console.log("congratulation, you Guess the right number ");
 
-
 ```
+
+
