@@ -126,7 +126,15 @@ Loops and Iterations :-
 - The basic idea behind a loop is to automate the repetitive tasks within a program to save time and effort .
 - It makes the code compact .
 - It is mostly used in array or object (to iterate through series)
-- Loops/iterations is an instruction repeat until a specific condition is reached .
+- Loops/iterations is an instruction repeat until a specific condition is reached.
+
+## Different Types of Loops in JavaScript:
+for loop
+while loop
+do...while loop
+for...in loop
+for...of loop (ES6)
+for...each
 
 
 
