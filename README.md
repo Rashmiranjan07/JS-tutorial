@@ -116,7 +116,17 @@ console.log(result);
 - This operator is frequently used as a shortcut/short-hand method for the if statement
 - Syntax: variablename = (condition) ? TRUE value: FALSE value
 
+Section 05. Loops 
+==================
 
+Loops and Iterations :-
+--------------------
+- Loops are used to execute the same block of code again, with a different value, until a certain condition is met .
+- Loops can execute/repeat a block of code (an action) a number of/several times .
+- The basic idea behind a loop is to automate the repetitive tasks within a program to save time and effort .
+- It makes the code compact .
+- It is mostly used in array or object (to iterate through series)
+- Loops/iterations is an instruction repeat until a specific condition is reached .
 
 
 
