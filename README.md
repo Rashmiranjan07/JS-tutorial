@@ -345,7 +345,7 @@ console.log("string size=", size); //10
 ```
 
 
-## practice question :- 
+### practice question :- 
 
 - print all even numbers from 0 to 100 .
 
@@ -358,6 +358,7 @@ for (let num = 0; num<=100; num++) {
 }
 
 ```
+### Practice Question
 - create a game where you start with any random game number . Ask the user to keep guesssing the game number until the user enters correct value.   
 
 ```javascript
@@ -450,6 +451,18 @@ console.log(message2.split(' '));
 
 let courses = 'html5, css3, javascript, angular';
 console.log(courses.split(','));
+
+```
+
+### Practice Question 
+ - Prompt the user to enter their full name. Generate a username for them based on the input. Start username with @, followed by their full name and ending with the fullname length.
+
+```javascript
+
+let fullName = prompt("enter your fullname without spaces");
+
+ let userName = "@" + fullName + fullName.length;
+console.log(userName);
 
 ```
 
