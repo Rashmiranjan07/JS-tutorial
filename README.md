@@ -92,10 +92,6 @@ JavaScript supports the following types of operators:
 7. Bitwise Operators
 
 
-Section 04. Conditionals Statements 
-=====================================
-- Conditional Operator returns a value based on the condition, it is like if-else . 
-
 Ternary Operators
 --------------------
 - It works with three operands
@@ -115,6 +111,79 @@ console.log(result);
 - The conditional operator that assigns a value to a variable based on some condition
 - This operator is frequently used as a shortcut/short-hand method for the if statement
 - Syntax: variablename = (condition) ? TRUE value: FALSE value
+
+
+
+Section 04. Conditionals Statements 
+=====================================
+- Conditional statements are used to perform different action based on different condition
+- Conditional statements allow the developer to make correct decisions and perform right actions as per condition
+- It helps to perform different actions for different decisions
+- We can use conditional operator to check our condition: >, <, >=, <=, ==, !=, === .
+
+We can use the following conditional statements in JavaScript to make decisions:
+
+1. If Statement
+2. If...else Statement
+3. If...else if...else Statement
+4. Switch...Case Statement
+
+##  If Statement
+
+- "If" the conditional statement is the simplest and basic control statement make decisions and execute statements conditionally.
+- The if statement is used to execute a block of code only if the specified condition evaluates to true.
+- It evaluates the content only if an expression is true.
+
+```javascript
+
+let age = 25;
+
+if (age > 18) {
+    console.log("you can vote");
+}
+
+``` 
+
+## If...else Statement
+
+- The JavaScript if...else statement is used to execute the code weather condition is true or false.
+- The developer can enhance the decision-making capabilities by providing an alternative choice through adding an else statement to the if statement.
+- The condition can be any expression that evaluates to true or false.
+- If the condition evaluates to true, statements_1 are executed; otherwise, statements_2 are executed.
+
+```javascript
+
+let age = 15;
+
+if (age >= 18) {
+  console.log('MAJOR! Eligible for Voting');
+} else {
+  console.log('MINOR! NOT Eligible for Voting');
+}
+
+```
+
+## If...else if...else Statement
+
+- The if...else if...else a special statement that is used to combine multiple if...else .
+- It is an advanced form of if...else that allows us to make a correct decision out of several conditions.
+
+```javascript
+
+let currentHours = 15;
+
+if(currentHours >=6 && currentHours< 12) {
+  console.log('Good Morning!');
+  window.alert('Good Morning!');
+} else if (currentHours >12 && currentHours <=18) {
+  console.log('Good AfterNoon!');
+  window.alert('Good AfterNoon!');
+} else {
+  console.log('Good Evening!');
+  window.alert('Good Evening!');
+}
+
+```
 
 Section 05. Loops 
 ==================
@@ -209,5 +278,67 @@ do {
   i++;
 }
 while (i <= 5); 
+
+```
+
+##  for-of loop (string / arrays)
+
+```javascript
+
+let str = "javascript";
+let size = 0;
+
+
+for (let a of str) {
+    console.log("a=", a);
+    size++;
+}
+console.log("string size=", size); //10
+
+
+```
+
+## for-in loop (used for objects)
+
+```javascript
+
+let student = {
+    name: "rashmiranjan shaw",
+    age: 20,
+    cgpa: 9.7,
+    isPass: true
+};
+
+for(let k in student) {
+    console.log("k=", k , "value=", student [k]);
+}
+
+
+```
+## practice question :- 
+
+- print all even numbers from 0 to 100 .
+
+```javascript
+
+for (let num = 0; num<=100; num++) {
+    if (num%2===0) {
+        console.log ("num=", num);
+    } 
+}
+
+```
+- create a game where you start with any random game number . Ask the user to keep guesssing the game number until the user enters correct value .   
+
+```javascript
+
+let gameNum = 25;
+let userNum = prompt("Guess the game number: ");
+while (userNum != gameNum) {
+  userNum = prompt(" you entered the wrong game number. Guess again: ");
+}
+
+console.log("congratulation, you Guess the right number ");
+
 
 ```
