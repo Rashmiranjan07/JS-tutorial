@@ -49,5 +49,5 @@ console.log(btr.charAt(2));
 
 
 
-// Practice Question 
+
 
