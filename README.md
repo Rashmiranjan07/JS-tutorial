@@ -128,14 +128,26 @@ Loops and Iterations :-
 - It is mostly used in array or object (to iterate through series)
 - Loops/iterations is an instruction repeat until a specific condition is reached.
 
-## Different Types of Loops in JavaScript:
-for loop
-while loop
-do...while loop
-for...in loop
-for...of loop (ES6)
-for...each
+ Different Types of Loops in JavaScript:
+----------------------------------------
+1. for loop
+2. while loop
+3. do...while loop
+4. for...in loop
+6. for...each
 
+## The for loop
 
+- The For loop is used to run a piece of code a set amount of times
+- Loops through a block of code until the counter reach a specified number
+- The for loop repeats a block of code until a certain condition is met
+- The for loop is the most simple/compact form of looping
+- For loop consists of 3 statements (), mostly i = index is used for loop initialization
 
+```javascript
 
+for (let count=1; count <= 5; count++) {
+    console.log("apna college");
+ }
+
+```  
