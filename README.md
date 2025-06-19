@@ -21,10 +21,10 @@ JavaScript in HTML
 ---------------------
 
 - The HTML `<script>.....</script>` tag is used to embed/insert/implement a JavaScript programs/code into any part of an HTML document/page
-- The `<script>.....</script>` tag specifies that we are using JavaScript
-- The `<script>.....</script>` element can be placed in the `<head>`, or `<body>` section of an HTML document
-- Each `<script>.....</script>` tag blocks the page rendering process until it has fully downloaded and executed the JavaScript code
-  - So the best practice is to place/add the `<script>.....</script>` at the bottom/end of `body` tag/section ie. just before the closing `</body>` tag
+- The `<script>.....</script>` tag specifies that we are using JavaScript.
+- The `<script>.....</script>` element can be placed in the `<head>`, or `<body>` section of an HTML document.
+- Each `<script>.....</script>` tag blocks the page rendering process until it has fully downloaded and executed the JavaScript code.
+- So the best practice is to place/add the `<script>.....</script>` at the bottom/end of `body` tag/section ie. just before the closing `</body>` tag.
  
     
 Section 01. Variables
@@ -37,12 +37,12 @@ Variables are one of the most fundamental concepts in JavaScript and other all p
 
 - A variable is `container to store/hold the data/information`
 - Developers/Programmers use Variable to `store/hold the data/information temporarily` in computer memory 
-- A variable is a kind of data holder where we can store some value for programming or calculation purpose
-- A JavaScript variable is simply a `name of the storage location (named containers/named storage)` for data
-- Variables are symbolic names for values 
+- A variable is a kind of data holder where we can store some value for programming or calculation purpose.
+- A JavaScript variable is simply a `name of the storage location (named containers/named storage)` for data.
+- Variables are symbolic names for values.
 - Variables are used to store data of different types like a string of text, numbers, boolean values like true/false, an array of data, etc. 
-- The data or value stored in the variables can be set, updated, and retrieved whenever needed
-- Variables are declared using the keyword `var` keyword
+- The data or value stored in the variables can be set, updated, and retrieved whenever needed.
+- Variables are declared using the keyword `var` keyword.
 
 Section 02. Data types
 =======================
@@ -78,11 +78,12 @@ What is Operator ?
 // Lets take a look on simple expression 
 var sum = 1 + 2;
 
-// Here 1 and 2 are called `operands` and 
-// `=` & `+` are called the `operator`
-// `= is the assignment` operator, `+ is the arithmetic` operator
+ - Here 1 and 2 are called `operands` and 
+ - `=` & `+` are called the `operator`
+ - `= is the assignment` operator, `+ is the arithmetic` operator
 
-JavaScript supports the following types of operators:
+## JavaScript supports the following types of operators:
+
 1. Arithmetic Operators
 2. Assignment Operators
 3. Logical Operators
@@ -94,8 +95,8 @@ JavaScript supports the following types of operators:
 
 Ternary Operators
 --------------------
-- It works with three operands
-- condition ? true output: false output 
+- It works with three operands.
+- condition ? true output: false output .
  - eg:-(a ? b : c)
 
    syntax is: [age> 18 ? "adult" :" not adult " ;]
@@ -107,18 +108,18 @@ let result = age > 18 ? "adult" : "not adult";
 console.log(result);
 ```  
 
-- The conditional (ternary) operator is the only JavaScript operator that takes three operands
-- The conditional operator that assigns a value to a variable based on some condition
-- This operator is frequently used as a shortcut/short-hand method for the if statement
-- Syntax: variablename = (condition) ? TRUE value: FALSE value
+- The conditional (ternary) operator is the only JavaScript operator that takes three operands.
+- The conditional operator that assigns a value to a variable based on some condition.
+- This operator is frequently used as a shortcut/short-hand method for the if statement.
+- Syntax: variablename = (condition) ? TRUE value: FALSE value.
 
 
 
 Section 04. Conditionals Statements 
 =====================================
-- Conditional statements are used to perform different action based on different condition
-- Conditional statements allow the developer to make correct decisions and perform right actions as per condition
-- It helps to perform different actions for different decisions
+- Conditional statements are used to perform different action based on different condition.
+- Conditional statements allow the developer to make correct decisions and perform right actions as per condition.
+- It helps to perform different actions for different decisions.
 - We can use conditional operator to check our condition: >, <, >=, <=, ==, !=, === .
 
 We can use the following conditional statements in JavaScript to make decisions:
@@ -184,6 +185,33 @@ if(currentHours >=6 && currentHours< 12) {
 }
 
 ```
+
+## Switch...Case Statement
+- The switch...case statement is alternative to an if...else if...else statement, both do almost the same thing.
+- This matches the case and the value of condition and if the case matches, the subsequent block is executed and if none of the case matches default block is executed.
+- The JavaScript switch statement is used to execute one code from multiple blocks of expressions.
+
+```javascript
+
+let sweets = 'cake'; //cake, chocolates, biscuits
+
+switch (sweets) {
+  case 'chocolates':
+    console.log('Chubby Chocolates!');
+    break;
+  case 'cake':
+    console.log('Happy BirthDay Cake!');
+    break;
+  case 'biscuits':
+    console.log('Enjoy Biscuits!');
+    break;
+  default:
+    console.log('No Sweets! Try some other sweets!');
+    break;
+}
+
+```
+
 
 Section 05. Loops 
 ==================
