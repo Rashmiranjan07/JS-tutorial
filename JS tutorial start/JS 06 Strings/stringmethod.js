@@ -49,5 +49,12 @@ console.log(btr.charAt(2));
 
 
 
+let obj ={
+    item :"pen",
+    price: 10,
+};
+console.log("the cost of", obj.item, "is", obj.price, "rupees");
+// the above process is too complicated , we cn easily write this code by using template literal string 
 
-
+let output = `the cost of ${obj.item} is ${obj.price} rupees `;
+console.log(output);

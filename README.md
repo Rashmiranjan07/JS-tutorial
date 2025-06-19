@@ -372,4 +372,133 @@ console.log("congratulation, you Guess the right number ");
 
 ```
 
+Section 06. String Methods
+============================
+
+String 
+-------
+- String is a sequence of character used to represent text.
+- create string
+```javascript
+let str ="apna college";
+```
+Syntax & Example :-
+
+```javascript
+const firstName = 'Rashmiranjan';
+const lastName = 'Shaw'
+
+const fullName = (firstName) + (lastName);
+console.log(fullName);
+console.log(typeof fullName);
+
+//String Length
+console.log(firstName.length);
+
+//String indicates
+// str[0], str[1], str[2]
+console.log(str[8]);
+
+// concat() method
+console.log(firstName.concat(' ', lastName));
+
+// change case
+console.log(firstName.toLowercase());
+console.log(firstName.toUppercase());
+
+//escape character 
+// "\n" - next line 
+console.log("Rashmi \n ranjan");
+//  "\t" - tab space 
+console.log("Rashmi \t ranjan");
+
+// string array - get specific character from string like an array
+console.log(firstName[0]);
+
+// indexOf
+console.log(firstName.indexOf('i'));
+console.log(firstName.lastIndexOf('a'));
+
+// charAt()
+console.log(firstName.charAt(2));
+
+// get last character from string
+console.log(firstName.charAt(firstName.length - 1));
+
+// replace();
+let replaceString = ('Rashmi', 'Mo');
+console.log('My name is:', replaceString); 
+
+// substring();
+console.log(firstName.substring(0,4));
+
+// slice();
+console.log(firstName.slice(0,4));
+
+// slice(); negative number starts from backside
+console.log(firstName.slice(-2));
+
+// includes();
+let message2 = 'Hello Rashmi, welcome to JavaScript';
+console.log(message2.includes('Hello'));
+console.log(message2.includes('Hi'));
+
+// split()
+let message2 = 'Hello Rashmi, welcome, to JavaScript';
+console.log(message2.split(','));
+console.log(message2.split(' '));
+
+let courses = 'html5, css3, javascript, angular';
+console.log(courses.split(','));
+
+```
+
+## Template Literals
+- ES6 new feature Strings Template offers a convenient way to work with string concatenation/interpolation.
+
+- Template literals provide an easy and clean way to create multi-line strings and perform string interpolation.
+
+- Intuitive expression interpolation for single-line and multi-line strings.
+
+- Use back-tick (grave accent) character and { var name in curly brace }, no + plus sign required.
+
+- The best part of Template Literals (Template Strings) is we can use 'single' "double" quotes inside.
+
+- It is part of ES6 but compatible with all the modern browsers and its latest versions.
+
+```javascript
+//old plain javascript approach
+let user = 'Rashmi';
+let greetMessage1 = 'Welcome' + ' ' + user + ' ' + 'to JavaScript.';
+
+console.log(greetMessage1);
+ 
+console.log('// ------------------------------');
+
+const firstName = 'Dinanath';
+const lastName = 'Jayaswal'
+const course = 'JavaScript'
+
+const fullName = `Hey ${firstName} ${lastName} Welcome to ${course}.`
+
+console.log('// ------------------------------');
+
+//ES6 Template Literals (Template Strings) approach
+let greetMessage2 = `Hello ${firstName}, How are you?`;
+
+console.log(greetMessage2);
+
+//ex:-
+
+let obj ={
+    item :"pen",
+    price: 10,
+};
+console.log("the cost of", obj.item, "is", obj.price, "rupees");
+// the above process is too complicated , we cn easily write this code by using template literal string 
+
+let output = `the cost of ${obj.item} is ${obj.price} rupees `;
+console.log(output);
+
+```
 
