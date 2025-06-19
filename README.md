@@ -358,7 +358,7 @@ for (let num = 0; num<=100; num++) {
 }
 
 ```
-### Practice Question
+### Practice Question :-
 - create a game where you start with any random game number . Ask the user to keep guesssing the game number until the user enters correct value.   
 
 ```javascript
@@ -454,7 +454,7 @@ console.log(courses.split(','));
 
 ```
 
-### Practice Question 
+### Practice Question :-
  - Prompt the user to enter their full name. Generate a username for them based on the input. Start username with @, followed by their full name and ending with the fullname length.
 
 ```javascript
