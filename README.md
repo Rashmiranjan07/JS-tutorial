@@ -515,3 +515,13 @@ console.log(output);
 
 ```
 
+# Array 
+
+## What is an Array?
+- An Array is a special type of variable/object which consists of / stores multiple values.
+- Arrays are complex variables that allow us to store more than one value or a group of values under a single variable name.
+- Arrays are defined with square brackets [ ] and with new keyword.
+- Array items are normally separated with commas,
+- Arrays are zero-indexed i.e. the first element of an array is at index/position 0.
+- An array is ordered collection, where we have a 0th, 1st, a 2nd, and so on elements.
+-Each value (an element) in an array has a numeric position, known as its index, starts from 0, so that the first array element position/index is arr[0] not arr[1].
