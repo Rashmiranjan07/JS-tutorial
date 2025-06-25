@@ -525,3 +525,14 @@ console.log(output);
 - Arrays are zero-indexed i.e. the first element of an array is at index/position 0.
 - An array is ordered collection, where we have a 0th, 1st, a 2nd, and so on elements.
 -Each value (an element) in an array has a numeric position, known as its index, starts from 0, so that the first array element position/index is arr[0] not arr[1].
+
+#### Different ways to create/define an Array :-
+There are 3 main ways to construct an array:
+
+1. By array literal
+2. By creating an instance of Array directly (using the new keyword).
+3. By using an Array constructor (using the new keyword).
+
+## Create Array by array literal 
+- The simplest way to create an array in JavaScript is enclosing a comma-separated list of values in square brackets [ ].
+- var myArray = [element0, element1, ..., elementN];
