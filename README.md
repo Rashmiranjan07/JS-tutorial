@@ -536,3 +536,73 @@ There are 3 main ways to construct an array:
 ## Create Array by array literal 
 - The simplest way to create an array in JavaScript is enclosing a comma-separated list of values in square brackets [ ].
 - var myArray = [element0, element1, ..., elementN];
+
+## Array-method
+```javascript
+
+// Array methods in JS 
+
+
+//Push() : add to end
+let foodItems = ["patato", "apple" , "litchi", "tamato"];
+foodItems.push("chips", "burger", "paneer");
+console.log(foodItems);
+
+//Pop() : delete from end & return 
+foodItems.pop();
+console.log(foodItems);
+
+
+//toString() : convert array to string
+console.log(foodItems.toString());
+
+
+//Concat() : joins multiple arrays & returns result 
+let marvel_heros = ["thor", "spiderman", "ironman" ];
+let dc_heros = ["superman", "batman"];
+
+ let heros = marvel_heros.concat(dc_heros);
+ console.log(heros);
+
+
+ //unshift() : add to start 
+
+marvel_heros.unshift("antman");
+
+
+ //shift() : delete from start and return 
+marvel_heros.shift();
+
+
+// Slice() : returns a piece of the array
+let marvel =["thor","spiderman", "ironman", "antman" ,"Dr.strange"];
+console.log(marvel);
+console.log(marvel.slice(1,3));
+
+
+// Splice() : change original array (add,remove,replace)
+// splice( startidx, delCount,newEl1..)
+
+let arr = [1,2,3,4,5,6,7];
+
+arr.splice(2,2,101,102);
+
+```
+### Practice Question :-
+Q. Create an array to store companies -> "Blooming" , "microsoft" , "uber","goggle", "IBM", "Netflix" .
+a . Remove the first comapnies from the array .
+b. Remove uber and add ola in this palce .
+c. Add Amazon at the end .
+
+```javascript
+
+let companies = ["Blooming" , "microsoft" , "uber","goggle", "IBM", "Netflix"] ;
+companies.shift();
+companies.splice(2,1,"ola");
+companies.push("Amazon");
+
+```
+# Function 
+
+## What is function ?
+- Block of code that performs a specific task , can be invoked (caalled) whenever needed.
