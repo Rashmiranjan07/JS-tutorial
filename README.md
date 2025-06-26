@@ -606,3 +606,48 @@ companies.push("Amazon");
 
 ## What is function ?
 - Block of code that performs a specific task , can be invoked (caalled) whenever needed.
+- A function is basically a group of statements that perform specific tasks/operations.
+- Functions provide a way to create reusable code packages which are more portable and easier to debug.
+- Functions allow a programmer to divide a big program into a number of/several small and manageable functions.
+- It helps programmers in writing modular codes.
+- The function is a kind of reusable tool where we can write code/functionality to reuse whenever we want (Function allow the code to be called many times without repetition).
+- Wrapping up / making smaller chunks of statements / reusable codes together for readability or separation of concern/proper organization is functions – (Grouping of a repetitive task).
+- Functions (logical block of code) are one of the most important control structure in any programming language.
+- In other languages, it might be called MODULES, SUBROUTINES(SUB-ROUTINES).
+- There are two steps to utilize function:
+ a. create/define a function with function keyword
+ b. call/invoke a function
+
+ ## Here are some advantages of using functions:
+- Code reusability - call a function several times.
+- Less coding - makes our program compact, no need to write lines of code each time.
+- Easier to maintain - changes are done only at one location.
+- Easier to eliminate the errors - fixing errors becomes much easier.
+
+```javascript
+
+function myFunction() {
+    console.log("Welcome to apna college !");
+    console.log("We are learning JS ");
+}
+
+myFunction();
+
+```
+
+## Function Naming
+Function denotes an action/task. The function name should be brief, as accurate as possible and describe what the function does, like a verb.
+
+Usually, Function name starts with:
+
+- "getSomething" – returns value,
+- "createSomething" – create something,
+- "calcSomething" – calculate something,
+- "checkSomething" – check something and return a boolean, etc.
+
+#### Examples of function names:
+
+getSum();
+createFields();
+calcAge();
+checkUserType();
