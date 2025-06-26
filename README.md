@@ -651,3 +651,110 @@ Usually, Function name starts with:
 - createFields();
 - calcAge();
 - checkUserType();
+
+## Arrow function :-
+Compact way of writing a function .
+
+```javascript
+
+//const functionName = (param1,param2..) => {
+// do something
+// } 
+
+const sum = (a,b) => {
+  return a+b;
+};
+  //eg02 :- 
+  const arrowMul = (a,b) => {
+  console.log(a*b);
+  };
+
+ // print hello by arrow function 
+ const printHello =() => {
+  console.log("hello");
+ };
+
+```
+
+### Practice Question :-
+Q. Create a function using the "function" keyword that takes a string as an argument & returns the number of vowels in the string.
+
+
+```javascript
+function countVowels (str) {
+   let count = 0;
+    for(const char of str) {
+        if(char==="a"||
+            char==="e"||
+            char==="i"||
+            char==="0"||
+            char==="u"
+        ){
+            count ++;
+        }
+    }
+    console.log(count);
+}
+
+```
+
+Q. Create a arrow funtion to perfrom the same task .
+
+
+```javascript
+const countVow = (str) => {
+     let count = 0;
+    for(const char of str) {
+        if(char==="a"||
+            char==="e"||
+            char==="i"||
+            char==="0"||
+            char==="u"
+        ){
+            count ++;
+        }
+    }
+    return count;
+};
+
+```
+
+## forEach loop in Array 
+
+- arr.forEach( callBackFunction )
+- CallbackFunction : Here, it is a function to execute for each element in the array.
+--- *A callback is a function passed as an argument to another function.
+
+```javascript
+//forEach Loop in Arrays :-
+ let arr = [1,2,3,4,5];
+
+ arr.forEach(function printVal(val) {
+     console.log(val);
+     }
+);
+
+//but we do this in arrow function 
+
+let arr = [1,2,3,4,5];
+
+arr.forEach((val)=> {
+console.log(val);
+}
+);
+
+```
+
+### Practice Question :-
+Q.For a given array of numbers , Print the square of each value using the for each loop . 
+
+```javascript
+let num =[2,3,4,5,6];
+
+num.forEach((num)=>{
+    console.log(num*num);
+});
+
+```
+
+## Some More Array Methods :- 
