@@ -647,7 +647,7 @@ Usually, Function name starts with:
 
 #### Examples of function names:
 
-getSum();
-createFields();
-calcAge();
-checkUserType();
+- getSum();
+- createFields();
+- calcAge();
+- checkUserType();
