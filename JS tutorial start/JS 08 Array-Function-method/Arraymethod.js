@@ -70,7 +70,7 @@ console.log(output); // 10
 
 // practice Question
 
-//We are given array of marks of students . filter out of the marks of student that scored 90+
+//q. 01We are given array of marks of students . filter out of the marks of student that scored 90+
 
 let array1 = [87,93,64,99,86];
 let highArray1 = array1.filter((val)=> {
@@ -78,3 +78,27 @@ let highArray1 = array1.filter((val)=> {
 }
 );
 console.log(highArray1);
+
+
+//q.02 Take a number n as inpur from the user. Create an array of numbers from 1 to n .
+// use the reduce method to calculate sum of all numbers in the array.
+// use the reduce method to calculate product of all numbers in the array .
+
+let n = prompt("enter a number:");
+let arry = [];
+for (let i =1; i<=n; i++) {
+    arry[i-1]=i;
+}
+console.log(arry);
+
+const sum = arry.reduce((prev, cur)=>{
+    return prev + cur;
+});
+
+console.log("sum=", sum);
+
+const product = arry.reduce((prev, cur)=>{
+    return prev * cur;
+});
+
+console.log("product=", product);

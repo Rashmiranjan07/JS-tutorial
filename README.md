@@ -758,3 +758,21 @@ num.forEach((num)=>{
 ```
 
 ## Some More Array Methods :- 
+
+## 01. forEach loop in Arrays
+
+Syntax is :-
+
+```javascript
+// arr.foreach(callBack Function)
+
+```
+ #### callBack function :- Here , it is a function to execute forr each element in the array .
+ - A call-back function is a function passed as an argument to another function .
+
+ ```javascript
+arr.forEach((val)=>{
+  console.log(val);
+});
+
+```
