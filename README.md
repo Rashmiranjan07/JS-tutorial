@@ -803,7 +803,7 @@ return val * 2;
 
 ```
 ## filter 
--Creates a new array of elements that give true for a condition/filter.
+- Creates a new array of elements that give true for a condition/filter.
 Eg: all even elements.
 
 ```javascript
@@ -865,3 +865,67 @@ const product = arry.reduce((prev, cur)=>{
 console.log("product=", product);
 
 ```
+
+# DOM (Document Object Model)
+
+## What is DOM?
+
+### What is the Document Object Model?
+
+- DOM represents the whole HTML document, DOM is a structure of HTML web page where all tags are defined in a structured/structural way.
+- The Document Object Model (DOM) is the model that describes how all elements in an HTML page (like input fields, images, paragraphs, headings, etc.), are related to the topmost structure: the document itself.
+- DOM defines the logical structure of the documents and how they can be accessed and manipulated.
+- DOM is a W3C (World Wide Web Consortium) standard which defines a standard for accessing documents like programmers can build documents, navigate their structure, and add, modify, or delete elements and content.
+- In DOM world always think in form/terms of Nodes (elements, its attributes, text, etc).
+- Structural representation of HTML document (Tree of nodes/elements/tags).
+
+
+### Javascript in the browser -
+  Javascript was initially created to make web pages alive. Javascript can be writter right in a web pages HTML to make it interactive.
+
+     The browser has an embeded engines called the Javascript engine or the javascript runtime.
+
+## Starter code 
+
+- <style> tag connects HTML with CSS.
+- <script> tag connects HTML with JS.
+
+### Console object methods-
+ The console object has several methods , log being one of them , Some of them are as follows .
+
+- assect() - used to assect a condition. 
+- clear() - cleans the console.
+- log() - outputs a message to the console.
+- table() - Display a tabular data.
+- error() - used for errors.
+- info() - used for special information.
+
+  
+### Interaction : alert , prompt 
+
+- alert: used to invoke a moini winddow with a msg 
+
+// alert ("hello")
+
+- prompt: used to take user input as string 
+
+// imp= prompt("hi", "no")
+
+#### What is DOM ?
+ when a web page is loaded , the browsser creates a document Object Model (DOM) of the page .
+
+
+ #### Window object, BOM & DOM -
+
+##### Window object-
+ The window object represents an open window in a browser . It is broeswer's object(not javascript's) & is automatically created by browser.
+
+ ###### DOM-
+ DOM represents the page content as HTML .
+
+ ###### BOM(Browser Object Model)-
+ The Browser Object Model (BOM) represents additional objects provided by the browser for working with everything except the document.
+
+
+ ## DOM Manipulation :-
+   
