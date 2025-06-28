@@ -776,3 +776,92 @@ arr.forEach((val)=>{
 });
 
 ```
+### Practice Question :-
+ Q.For a given array of numbers , Print the square of each value using the for each loop. 
+
+ ```javascript
+let num =[2,3,4,5,6];
+
+num.forEach((num)=>{
+    console.log(num*num);
+});
+
+```
+
+## Some More Array Methods 
+
+## Map 
+- Creates a new array with the results of some operation. The value its callback returns are used to from new array.
+
+// arr.map( callbackFnx( value, index, array ) )
+
+```javascript
+
+let newArr = arr.map( ( val ) => {
+return val * 2;
+})
+
+```
+## filter 
+-Creates a new array of elements that give true for a condition/filter.
+Eg: all even elements.
+
+```javascript
+et newArr = arr.filter( ( ( val ) => {
+return val % 2 === 0;
+})
+
+```
+
+## Reduce 
+- Performs some operations & reduces the array to a single value. It returns that single value .
+
+```javascript
+let arr1 = [1,2,3,4];
+
+ const output = arr1.reduce((res, curr)=>{
+    return res + curr;
+}
+);
+console.log(output); // 10
+```
+
+### Practice Question :-
+ Q.We are given array of marks of students . filter out of the marks of student that scored 90+.
+
+
+```javascript
+let array1 = [87,93,64,99,86];
+let highArray1 = array1.filter((val)=> {
+    return val > 90;
+}
+);
+console.log(highArray1);
+
+```
+Q. Take a number n as inpur from the user. Create an array of numbers from 1 to n .
+- use the reduce method to calculate sum of all numbers in the array.
+- use the reduce method to calculate product of all numbers in the array .
+
+
+```javascript
+let n = prompt("enter a number:");
+let arry = [];
+for (let i =1; i<=n; i++) {
+    arry[i-1]=i;
+}
+console.log(arry);
+
+const sum = arry.reduce((prev, cur)=>{
+    return prev + cur;
+});
+
+console.log("sum=", sum);
+
+const product = arry.reduce((prev, cur)=>{
+    return prev * cur;
+});
+
+console.log("product=", product);
+
+```
