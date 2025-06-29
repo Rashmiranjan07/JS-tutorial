@@ -43,12 +43,3 @@ console.dir(div);
 //----
 let heading = document.querySelector("h1");
 
-
-
-// practice question :-
-// Q . Create a H2 headings element with text -"Hello Javascript". Append "from Apna college students" to this text using Js .
-
-
-// Q . Create 3 dives with common name - " box". Access them & add some unique  
-
-
