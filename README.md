@@ -964,6 +964,9 @@ console.dir(firstEl);
 let allEl = document.querySelector("p"); // all elements 
 console.dir(allEl);
 
+(4) attributes 
+
+
 ```
 
 ### Properties :-
@@ -971,5 +974,7 @@ console.dir(allEl);
 - innerText : returns the text conetent of the elements and all its children.
 - innerHTML : returns the plain tect or HTML contents in the element.
 - textContent : returns textual content even for hidden elements. 
+
+
 
    
