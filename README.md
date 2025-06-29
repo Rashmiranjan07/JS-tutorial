@@ -928,4 +928,48 @@ console.log("product=", product);
 
 
  ## DOM Manipulation :-
+
+```javascript
+(1) Selecting with id
+ 
+ // document.getElementById("myId") 
+ // "#" -used in css
+ let button = document.getElementById("myId"); //h1
+console.dir(button);
+
+(2) Selecting with class
+// document.getElementByClassName("myClass")
+// "." -used in css
+let headers =document.getElementsByClassName("myClass");
+console.dir(headers);
+console.log(headers);
+
+(3) Selecting with tag
+//document.getElementsByTagName("p")
+
+let parahs = document.getElementsByTagName("p");
+console.dir(parahs);
+
+
+# Query Selector :-
+//document.querySelector("myId/ myClass / tag") 
+//returns elements
+let firstEl = document.querySelector("p"); // 1st elements 
+console.dir(firstEl);
+
+
+//document.querySelectorAll("myId/ myClass / tag") 
+//returns a Nodelist
+
+let allEl = document.querySelector("p"); // all elements 
+console.dir(allEl);
+
+```
+
+### Properties :-
+- tagName : returns tag for element nodes.
+- innerText : returns the text conetent of the elements and all its children.
+- innerHTML : returns the plain tect or HTML contents in the element.
+- textContent : returns textual content even for hidden elements. 
+
    
