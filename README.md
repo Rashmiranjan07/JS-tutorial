@@ -964,7 +964,73 @@ console.dir(firstEl);
 let allEl = document.querySelector("p"); // all elements 
 console.dir(allEl);
 
-(4) attributes 
+(4) Attributes 
+
+    (i)getAttribute(attr) 
+//to get the attributes value 
+let div = document.querySelector("div");
+console.log(div);
+let id = div.getAttribute("id");
+console.log(id);
+let name = div.getAttribute("name");
+console.log(name);
+
+let para = document.querySelector("p");
+console.log(para.getAttribute("class"));
+
+    (ii)setAttribute(attr,value)
+    // to set the attributes
+
+let para = document.querySelector("p");
+console.log(para.setAttribute("class","newClass"));
+
+
+(5) Style
+//node.style
+let div = document.querySelector("div");
+
+div.style.backgroundColor = "green";
+div.style.backgroundColor = "purple";
+div.style.visibility = "hidden";
+
+(6) Insert Elemnts 
+// let el = document.createElement("div") 
+let newBtn = document.createElement("button");
+newBtn.innerText = "click me!"
+console.log(newBtn);
+
+    (i)node.append(el)
+//adds at the end of nodee(inside)
+
+let div = document.querySelector("div");
+div.append(newBtn);
+
+
+    (ii)node.prepend(el)
+//adds at the Start of nodee(inside)
+
+let div = document.querySelector("div");
+div.prepend(newBtn);
+
+
+    (iii)node.before(el)
+//adds before the node(outside)
+let div = document.querySelector("div");
+div.before(newBtn);
+
+
+   (iv)node.after(el)
+//adds after the node (outside)
+let p = document.querySelector("p");
+p.after(newBtn);
+
+
+
+(7) Delete Elemnts 
+//node.remove()
+//remove the nodes 
+let para = document.querySelector("p");
+para.remove();
 
 
 ```
