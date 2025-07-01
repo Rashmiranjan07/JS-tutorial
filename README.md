@@ -1042,5 +1042,76 @@ para.remove();
 - textContent : returns textual content even for hidden elements. 
 
 
+# Events 
 
+- Events are happening/triggering all over, Event lets the developer know something has occurred/happened.
+- Events occur when the page loads (Onload), when the user interacts with the web page (clicked a link or button/hover) (onlick), pressed key, moved the mouse pointer, mouse-clicked/hover (onmouseover), entered text into an input box or textarea (onchange, onblur, onfocus), submits a form (submit), page unloads (unload).
+- When an event occurs, use a JavaScript event handler (or an event listener) to detect them and perform a specific task - Event handlers name always begin with the word "on", like onclick, onload, onblur, and so on.
+- To react to an event you listen for it and supply a callback function or event handler which will be called by the browser when the event occurs.
    
+### Different Event category
+In general, the events can be categorized into four main groups:
+
+1.  Mouse events
+2.  Keyboard events
+3. Form events
+4. Document/Window events
+
+
+#### 01. Mouse events :-
+A mouse event is triggered when the user clicks some element, move the mouse pointer over an element, etc. Find here some of the important mouse events and their event handler:
+
+- click (onclick event handler)
+   - Occurs When the mouse clicks on an element, links, buttons etc. on a web page.
+- contextmenu (oncontextmenu event handler)
+   - Occurs when a user clicks the right mouse button on an element to open a context menu.
+- mouseover / mouseout (onmouseover & onmouseout event handler)
+   - Occurs when the mouse pointer/cursor comes over / leaves (goes outside of) an element.
+- mousedown / mouseup (onclick/onmousedown & onmouseup)
+   - Occurs when the mouse button is pressed/released over an element.
+- mousemove (onmousemove event handler)
+   - Occurs when the mouse pointer/cursor is moved.
+
+
+
+
+#### 02. Keyboard events :-
+A keyboard event is fired up when the user presses or release a key on the keyboard. Here're some of the important keyboard events and their event handler:
+
+- keydown / keyup (onkeydown & onkeyup event handler)
+  - Occurs when the user presses down a key and then releases the button/a key on the keyboard.
+- keypress (onkeypress event handler)
+  - Occurs when the user presses down a key on the keyboard that has a character value associated with it.
+  - Keys like Ctrl, Shift, Alt, Esc, Arrow keys, etc. will not generate a keypress event, but will generate a keydown and keyup event.
+
+
+#### 03. Form events :-
+A form event is triggered when a form control/form fields (text fields/radio buttons/checkbox) receives or loses focus or when the user modifies a form control value by typing text in a text input, select an option in a dropdown/select box, etc. Let us look into some of the most important form events and their event handler:
+
+- focus (onfocus event handler)
+  - Occurs when the user focuses on an element on a web page, e.g. on an input text field.
+- blur (onblur event handler)
+  - Occurs when the user takes the focus away from a form element or a window.
+- change (onchange event handler)
+  - Occurs when the user changes the value of a form element/fields.
+- submit (onsubmit event handler)
+  - Occurs only when the user submits a form on a web page.
+
+
+  #### 04. Document/Window events :-
+  Events are happening/triggering all over. Events do trigger even when the page has loaded/unloaded or the user resizes the browser window. Mentioned here some of the most important document/window events and their event handler:
+
+- DOMContentLoaded (DOMContentLoaded event handler)
+  - Occurs when the HTML is loaded and processed, DOM is fully built.
+- load (onload event handler)
+  - Occurs when web page has finished loading in the web browser.
+- unload (onunload event handler)
+  - Occurs when a user leaves the current web page.
+- resize (onresize event handler)
+ - Occurs when a user resizes the browser window, even when browser window minimized or maximized.
+
+
+ ### Different ways to write the event handler
+  1. HTML Attribute
+  2. DOM element properties (anonymous function)
+  3. Registering event listeners (Professional Method (add and remove listeners))
