@@ -1115,3 +1115,11 @@ A form event is triggered when a form control/form fields (text fields/radio but
   1. HTML Attribute
   2. DOM element properties (anonymous function)
   3. Registering event listeners (Professional Method (add and remove listeners))
+
+
+
+
+  ### Using JS we make a small project named -"TIC-TAC-TOE" :-
+
+    [🌐 TIC_TAC_TOE game](https://dreamy-halva-2e5b82.netlify.app/)
+

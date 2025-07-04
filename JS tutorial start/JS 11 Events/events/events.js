@@ -75,16 +75,16 @@ btn1.removeEventListener("click",handler3);
  
 
 
- /*EVENT OBJECT :-
-   it is a special object that has the details about the event .
-   All event handlers have access to the Event objects's properties and methods .
+//  EVENT OBJECT :-
+//    it is a special object that has the details about the event .
+//    All event handlers have access to the Event objects's properties and methods .
    
    node.event =(e) => {
     //handle here 
     }
 
     e.target , e.type , e.clientX ,e.clientY 
-    */
+   
 
     // examples are done already inside the code 
 
@@ -96,8 +96,8 @@ btn1.removeEventListener("click",handler3);
 
     *Note:- the callback refeerences shoud be same to remove 
 
-      
-    */
+      */
+    
 
 
 
