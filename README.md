@@ -1118,8 +1118,12 @@ A form event is triggered when a form control/form fields (text fields/radio but
 
 
 
-
   ### Using JS we make a small project named -"TIC-TAC-TOE" :-
+   [🌐 TIC-TAC-TOE](https://dreamy-halva-2e5b82.netlify.app/)
+
+  ### Using JS we make a small project named -"Rock-paper-scissor game" :-
+ [🌐 ROCK-PAPER-SCISSOR](https://thriving-palmier-4dfd2b.netlify.app/)
+
 
     
 
