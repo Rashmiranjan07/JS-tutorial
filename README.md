@@ -515,7 +515,8 @@ console.log(output);
 
 ```
 
-# Array 
+Section 07. Array
+==================
 
 ## What is an Array?
 - An Array is a special type of variable/object which consists of / stores multiple values.
@@ -602,7 +603,8 @@ companies.splice(2,1,"ola");
 companies.push("Amazon");
 
 ```
-# Function 
+Section 07. function
+=====================
 
 ## What is function ?
 - Block of code that performs a specific task , can be invoked (caalled) whenever needed.
@@ -865,8 +867,8 @@ const product = arry.reduce((prev, cur)=>{
 console.log("product=", product);
 
 ```
-
-# DOM (Document Object Model)
+Section 09. DOM (Document Object Model)
+=======================================
 
 ## What is DOM?
 
@@ -927,7 +929,9 @@ console.log("product=", product);
  The Browser Object Model (BOM) represents additional objects provided by the browser for working with everything except the document.
 
 
- ## DOM Manipulation :-
+
+Section 10. DOM Manipulation 
+===============================
 
 ```javascript
 (1) Selecting with id
@@ -1041,8 +1045,8 @@ para.remove();
 - innerHTML : returns the plain tect or HTML contents in the element.
 - textContent : returns textual content even for hidden elements. 
 
-
-# Events 
+Section 11. Events 
+===================
 
 - Events are happening/triggering all over, Event lets the developer know something has occurred/happened.
 - Events occur when the page loads (Onload), when the user interacts with the web page (clicked a link or button/hover) (onlick), pressed key, moved the mouse pointer, mouse-clicked/hover (onmouseover), entered text into an input box or textarea (onchange, onblur, onfocus), submits a form (submit), page unloads (unload).
@@ -1125,5 +1129,5 @@ A form event is triggered when a form control/form fields (text fields/radio but
  [🌐 ROCK-PAPER-SCISSOR](https://thriving-palmier-4dfd2b.netlify.app/)
 
 
-    
-
+Section 12. Classes
+====================
