@@ -1131,3 +1131,49 @@ A form event is triggered when a form control/form fields (text fields/radio but
 
 Section 12. Classes
 ====================
+
+### Prototypes in JS -
+A Javascript object is an entity having state and behavior (propoties & method).
+   - JS objects have a special property called prototype.
+   - we can set prototyping using __ proto __ .
+
+### Classes in JS -
+ Class is a program-code template for creating objects .
+ Those objects will have some state (variable)  & some behaviour (function) inside it .
+
+
+```javascript
+class Myclass {
+constructor() {..}
+myMethod() {..}
+}
+
+```
+
+### Constructor -
+ Constructor() method is :
+-  automatically invoked by new..
+- initialize object.
+
+```javascript
+class MyClass{
+constructor () {....}
+myMethod(){...}
+}
+
+```
+
+### Inheritance in JS -
+ Inheritance is passing down properties & methods from parent class to child class .
+```javascript
+class Parent {
+ }
+ class Child extends Parent {
+ }
+
+```
+ 
+- Note:-If child & parent have same method , child's method will be used [method overloading] .
+
+
+ 

@@ -6,13 +6,13 @@
 -- >we can set prototyping using -- proto-- 
 */
 
-// const student = {
-//     fullName : "shardha khapra",
-//     marks : 94.4,
-//     printMarks: function() {
-//         console.log("marks = ",marks);
-//     },
-// };
+const student = {
+    fullName : "shardha khapra",
+    marks : 94.4,
+    printMarks: function() {
+        console.log("marks = ",marks);
+    },
+};
 
 const employee = {
   calcTax() {
@@ -27,27 +27,27 @@ const karanArjun = {
   },
 };
 
-// const karanArjun2 = {
-//     salary:50000,
-// };
+const karanArjun2 = {
+    salary:50000,
+};
 
-// const karanArjun3 = {
-//     salary:50000,
-// };
+const karanArjun3 = {
+    salary:50000,
+};
 
-// const karanArjun4 = {
-//     salary:50000,
-// };
+const karanArjun4 = {
+    salary:50000,
+};
 
-// const karanArjun5 = {
-//     salary:50000,
-// };
+const karanArjun5 = {
+    salary:50000,
+};
 
 karanArjun.__proto__ = employee;
-// karanArjun2.__proto__ = employee;
-// karanArjun3.__proto__ = employee;
-// karanArjun4.__proto__ = employee;
-// karanArjun5.__proto__ = employee;
+karanArjun2.__proto__ = employee;
+karanArjun3.__proto__ = employee;
+karanArjun4.__proto__ = employee;
+karanArjun5.__proto__ = employee;
 
 // Classes in JS
 // Class is a program-code template for creating objects .
@@ -58,27 +58,27 @@ myMethod() {..}
 }
 */
 
-// class ToyotaCar {
-//     start() {
-//         console.log("start");
-//     }
+class ToyotaCar {
+    start() {
+        console.log("start");
+    }
 
-//     stop() {
-//         console.log("stop");
-//     }
+    stop() {
+        console.log("stop");
+    }
 
-//     setBrand(brand) {
-//  this.brandName = brand;
-//     }
-// }
+    setBrand(brand) {
+ this.brandName = brand;
+    }
+}
 
-// this is the syntax of creating a object from a class .
-// let myObj = new Myclass();
+this is the syntax of creating a object from a class .
+let myObj = new Myclass();
 
-// let fortuner = new ToyotaCar ();
-// fortuner.setBrand("fortuner");
-// let lexus = new ToyotaCar ();
-// lexus.setBrand("fortuner");
+let fortuner = new ToyotaCar ();
+fortuner.setBrand("fortuner");
+let lexus = new ToyotaCar ();
+lexus.setBrand("fortuner");
 
 // CONSTRUCTOR
 /* Constructor() method is :
@@ -93,22 +93,22 @@ myMethod(){...}
 }
 */
 
-// class ToyotaCar {
-//     constructor (brand){
-//         console.log("creating new object");
-//         this.brand = brand;
-//     }
+class ToyotaCar {
+    constructor (brand){
+        console.log("creating new object");
+        this.brand = brand;
+    }
 
-//   start() {
-//     console.log("start");
-//   }
+  start() {
+    console.log("start");
+  }
 
-//   stop() {
-//     console.log("stop");
-//   }
-// }
-//  let fortuner = new ToyotaCar("fortuner");
-//  let lexus = new ToyotaCar("lexus");
+  stop() {
+    console.log("stop");
+  }
+}
+ let fortuner = new ToyotaCar("fortuner");
+ let lexus = new ToyotaCar("lexus");
 
 // INHERITANCE IN JS :-
 /* inheritance is passing down properties & methods from parent class to child class .
@@ -123,17 +123,17 @@ myMethod(){...}
    --> If child & parent have same method , child's method will be used .[method overloading] 
  */
 
-// class Parent {
-//   hello() {
-//     console.log("hello");
-//   }
-// }
+class Parent {
+  hello() {
+    console.log("hello");
+  }
+}
 
-// class Child extends Parent {
+class Child extends Parent {
 
-// }
+}
 
-// let obj = new.Child();
+let obj = new.Child();
 
 class Person {
     constructor() {
