@@ -1164,7 +1164,7 @@ myMethod(){...}
 ```
 
 ### Inheritance in JS -
- Inheritance is passing down properties & methods from parent class to child class .
+ Inheritance is passing down properties & methods from parent class to child class.
 ```javascript
 class Parent {
  }
