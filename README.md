@@ -247,7 +247,8 @@ for (let count=1; count <= 5; count++) {
     console.log("apna college");
  }
 
-``` 
+```
+
 ## The for loop - Find Even or Odd number (1-10)
 
 ```javascript
