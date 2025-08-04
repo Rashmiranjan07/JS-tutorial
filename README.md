@@ -25,8 +25,8 @@ JavaScript in HTML
 - The `<script>.....</script>` element can be placed in the `<head>`, or `<body>` section of an HTML document.
 - Each `<script>.....</script>` tag blocks the page rendering process until it has fully downloaded and executed the JavaScript code.
 - So the best practice is to place/add the `<script>.....</script>` at the bottom/end of `body` tag/section ie. just before the closing `</body>` tag.
+
  
-    
 Section 01. Variables
 =====================
 
@@ -102,17 +102,14 @@ Ternary Operators
    syntax is: [age> 18 ? "adult" :" not adult " ;]
 
 ```javascript
-
 let age = 25;
 let result = age > 18 ? "adult" : "not adult";
 console.log(result);
 ```  
-
 - The conditional (ternary) operator is the only JavaScript operator that takes three operands.
 - The conditional operator that assigns a value to a variable based on some condition.
 - This operator is frequently used as a shortcut/short-hand method for the if statement.
 - Syntax: variablename = (condition) ? TRUE value: FALSE value.
-
 
 
 Section 04. Conditionals Statements 
@@ -211,7 +208,6 @@ switch (sweets) {
 }
 
 ```
-
 
 Section 05. Loops 
 ==================
