@@ -13,7 +13,6 @@ JavaScript is a scripting language of the web that allows you to do/add Interact
 - JavaScript Submitted to `ECMAScript in 1997`
 
 
-
 JavaScript Getting Started
 =====================
 How to write Javascript?
