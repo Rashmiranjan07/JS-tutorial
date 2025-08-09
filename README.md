@@ -678,7 +678,6 @@ const sum = (a,b) => {
 ### Practice Question :-
 Q. Create a function using the "function" keyword that takes a string as an argument & returns the number of vowels in the string.
 
-
 ```javascript
 function countVowels (str) {
    let count = 0;
@@ -698,7 +697,6 @@ function countVowels (str) {
 ```
 
 Q. Create a arrow funtion to perfrom the same task .
-
 
 ```javascript
 const countVow = (str) => {
