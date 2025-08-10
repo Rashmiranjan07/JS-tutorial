@@ -34,6 +34,9 @@ b=15;
 
 // Temporal dead zone 
 // can not initailazation before declartion 
+// temporal dead zone where JS known the where the variable is here ?
+
+
 
 // Hoisting impact per type 
 //hoisting -> ek variable ko jav js main banaate hai to wo variable do hiso main toot jata hei and uska declare  part upar chala jatta hei and uska initialization part neeche rehe jata hei .
