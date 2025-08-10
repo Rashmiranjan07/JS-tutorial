@@ -4,9 +4,9 @@
 //var a; //declare 
 
 //var a=12; //declare and initialize 
-// window mein add karta hai 
-// function scoped hpta hai 
-// aap firse declare kr sakte ho same name and error nahi ayega 
+// window mein add karta hai .
+// function scoped hota hai .
+// aap firse declare kr sakte ho same name and error nahi ayega.
 
 //let a =12;
 
@@ -40,3 +40,4 @@ b=15;
 // var a= undefined 
 // a=12;
 // hoisting is applicable for let , var , const .
+
