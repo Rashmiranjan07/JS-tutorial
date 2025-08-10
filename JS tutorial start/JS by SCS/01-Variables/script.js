@@ -29,7 +29,7 @@ let b =14;
 b=15;
 
 // we can re-assignment the value of let& var 
-// but we can not redeclare in let . only redeclar occours in var .
+// but we can not redeclare in let . only redeclare occours in var .
 
 
 // Temporal dead zone 
