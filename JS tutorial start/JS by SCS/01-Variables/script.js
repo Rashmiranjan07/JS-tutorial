@@ -39,4 +39,4 @@ b=15;
 //hoisting -> ek variable ko jav js main banaate hai to wo variable do hiso main toot jata hei and uska declare  part upar chala jatta hei and uska initialization part neeche rehe jata hei .
 // var a= undefined 
 // a=12;
-// hoisting is applicable for let , var , const 
+// hoisting is applicable for let , var , const .
