@@ -164,7 +164,7 @@ if (age >= 18) {
 
 - The if...else if...else a special statement that is used to combine multiple if...else .
 - It is an advanced form of if...else that allows us to make a correct decision out of several conditions.
-
+  
 ```javascript
 
 let currentHours = 15;
