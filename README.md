@@ -263,8 +263,8 @@ for (let i = 1; i <= 10; i++) {
 
 ## The while loop
 
-- Loops through a block of code until the specified condition evaluates to true .
-- In For loop, a variable is part of a loop, but in While loop, we need to declare variable externally .
+- Loops through a block of code until the specified condition evaluates to true.
+- In For loop, a variable is part of a loop, but in While loop, we need to declare variable externally.
 
 ```javascript
 
