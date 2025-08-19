@@ -306,6 +306,7 @@ while (i <= 5);
 
 ```
 
+
 ## for-in loop (used for objects)
 
 ```javascript
