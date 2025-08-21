@@ -1148,7 +1148,7 @@ myMethod() {..}
 
 ### Constructor -
  Constructor() method is :
--  automatically invoked by new..
+- automatically invoked by new.
 - initialize object.
 
 ```javascript
