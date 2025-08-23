@@ -50,9 +50,9 @@ Section 02. Data types
  Data types 
 -------------
 
-A variable in JavaScript can contain any type of data. Data types specify what kind of data can be stored and manipulated within the variable in a program. In JavaScript, different data types are available to hold different types of values/data. There are two main categories/types of data types in JavaScript:
+A variable in JavaScript can contain any type of data. Data types specify what kind of data can be stored and manipulated within the variable in a program. In JavaScript, different data types are available to hold different types of values/data. There are two main categories/types of data types in JavaScript:-
 
- 1. Primitive (Primary or Value) data type
+1. Primitive (Primary or Value) data type
 - String
 - Number
 - Boolean
@@ -70,6 +70,7 @@ Section 03. Operators
 
 What is Operator ?
 -------------------
+
 - We know/use many operators since our initial school days, they are things like addition +, multiplication *, subtraction -, open-close round bracket ( ) or square bracket [ ]
 - Operators are symbols/keywords that tell the JavaScript engine to perform some sort of actions .
 - JavaScript operators are symbols that are used to perform operations on operands .
