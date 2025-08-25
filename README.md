@@ -93,7 +93,6 @@ var sum = 1 + 2;
 6. String Operators
 7. Bitwise Operators
 
-
 Ternary Operators
 --------------------
 - It works with three operands.
