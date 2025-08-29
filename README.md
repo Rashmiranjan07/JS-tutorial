@@ -182,6 +182,7 @@ if(currentHours >=6 && currentHours< 12) {
 
 ```
 
+
 ## Switch...Case Statement
 - The switch...case statement is alternative to an if...else if...else statement, both do almost the same thing.
 - This matches the case and the value of condition and if the case matches, the subsequent block is executed and if none of the case matches default block is executed.
