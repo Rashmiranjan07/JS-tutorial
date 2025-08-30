@@ -141,6 +141,7 @@ if (age > 18) {
 }
 ``` 
 
+
 ## If...else Statement
 
 - The JavaScript if...else statement is used to execute the code weather condition is true or false.
