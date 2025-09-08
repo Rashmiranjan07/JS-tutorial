@@ -486,7 +486,8 @@ let user = 'Rashmi';
 let greetMessage1 = 'Welcome' + ' ' + user + ' ' + 'to JavaScript.';
 
 console.log(greetMessage1);
- 
+
+
 console.log('// ------------------------------');
 
 const firstName = 'Dinanath';
