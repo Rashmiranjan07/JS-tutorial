@@ -32,7 +32,7 @@ Section 01. Variables
 =====================
 
 What is Variable?
----------------------
+-------------------
 
 Variables are one of the most fundamental concepts in JavaScript and other all programming languages of the world.
 
