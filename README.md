@@ -209,7 +209,6 @@ switch (sweets) {
     break;
 }
 
-
 ```
 
 Section 05. Loops 
