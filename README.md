@@ -160,6 +160,7 @@ if (age >= 18) {
   console.log('MINOR! NOT Eligible for Voting');
 }
 
+
 ```
 
 ## If...else if...else Statement
