@@ -38,7 +38,7 @@ Variables are one of the most fundamental concepts in JavaScript and other all p
 
 - A variable is `container to store/hold the data/information`
 - Developers/Programmers use Variable to `store/hold the data/information temporarily` in computer memory 
-- A variable is a kind of data holder where we can store some value for programming or calculation purpose.
+- A variable is a kind of data holder where we can store some value for programming or calculation purpose. 
 - A JavaScript variable is simply a `name of the storage location (named containers/named storage)` for data.
 - Variables are symbolic names for values.
 - Variables are used to store data of different types like a string of text, numbers, boolean values like true/false, an array of data, etc. 
