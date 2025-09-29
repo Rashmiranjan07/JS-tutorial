@@ -1175,4 +1175,3 @@ class Parent {
 
 - Note:-If child & parent have same method , child's method will be used [method overloading] .
 
-
