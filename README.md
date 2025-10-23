@@ -18,7 +18,7 @@ JavaScript Getting Started
 =====================
 How to write Javascript?
 ---------------------
-JavaScript in HTML
+JavaScript in HTML 
 ---------------------
 
 - The HTML `<script>.....</script>` tag is used to embed/insert/implement a JavaScript programs/code into any part of an HTML document/page.
