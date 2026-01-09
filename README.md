@@ -16,7 +16,7 @@ JavaScript is a scripting language of the web that allows you to do/add Interact
 
 JavaScript Getting Started
 =====================
-How to write Javascript?
+How to write Javascript? 
 ---------------------
 JavaScript in HTML 
 ---------------------
