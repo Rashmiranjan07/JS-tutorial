@@ -1115,7 +1115,6 @@ A form event is triggered when a form control/form fields (text fields/radio but
 - resize (onresize event handler)
  - Occurs when a user resizes the browser window, even when browser window minimized or maximized.
 
-
  ### Different ways to write the event handler
   1. HTML Attribute
   2. DOM element properties (anonymous function)
